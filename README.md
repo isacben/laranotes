@@ -1,3 +1,11 @@
+# Comit Code Changes
+
+<pre>
+$ git add .
+$ git commit -m " "
+$ git push master
+</pre>
+
 # Run Unit Tests
 
 Run all test:
