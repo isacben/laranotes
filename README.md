@@ -1,4 +1,4 @@
-# Comit Code Changes
+# Commit Changes
 
 <pre>
 $ git add .
