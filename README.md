@@ -1,7 +1,9 @@
-Run Unit Tests
+# Run Unit Tests
 
-# run all test
-$ vendor/bin/phpunit
+Run all test:
 
-# run one test class
-$ vendor/bin/phpunit tests/Unit/Phase1/H2Phase1Test.php
+<pre>$ vendor/bin/phpunit</pre>
+
+Run one test class:
+
+<pre>$ vendor/bin/phpunit tests/Unit/Phase1/H2Phase1Test.php</pre>
