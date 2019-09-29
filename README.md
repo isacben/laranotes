@@ -15,3 +15,24 @@ Run all test:
 Run one test class:
 
 <pre>$ vendor/bin/phpunit tests/Unit/Phase1/H2Phase1Test.php</pre>
+
+# Deploy to Production
+
+Discard changes in production:
+
+<pre>git reset --hard</pre>
+
+Deploy changes in the server:
+
+Reference: https://laraveldaily.com/how-to-deploy-laravel-projects-to-live-server-the-ultimate-guide/
+
+<pre>
+cd /home/forge/deploymentdemo.laraveldaily.com
+php artisan down
+git pull origin master
+composer install 
+php artisan migrate
+php artisan cache:clear
+php artisan queue:restart
+php artisan up
+</pre>
