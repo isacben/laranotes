@@ -36,3 +36,11 @@ php artisan cache:clear
 php artisan queue:restart
 php artisan up
 </pre>
+
+# Clone specific branch
+
+<pre>git clone --single-branch --branch <branchname> <remote-repo></pre>
+
+# Commit to a specific branch
+
+
